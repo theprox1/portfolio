@@ -1,0 +1,22 @@
+body{
+    background-color: #101010;
+}
+.box{
+    color: white;
+    position: absolute;
+    top:40%;
+    left:40%;
+}
+.fa {
+    padding: 10px;
+    font-size: 25px;
+}
+.name:hover{
+    color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+      left:12%;
+    }
+  }
